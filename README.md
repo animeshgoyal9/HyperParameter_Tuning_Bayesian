@@ -1,7 +1,2 @@
-# HyperParameter_Tuning_Bayesian
-
-Tuning machine learning hyperparameters is a tedious yet crucial task, as the performance of an algorithm can be highly dependent on the choice of hyperparameters. Manual tuning takes time away from important steps of the machine learning pipeline like feature engineering and interpreting results. Grid and random search are hands-off, but require long run times because they waste time evaluating unpromising areas of the search space. Increasingly, hyperparameter tuning is done by automated methods that aim to find optimal hyperparameters in less time using an informed search with no manual effort necessary beyond the initial set-up.
-
-Bayesian optimization, a model-based method for finding the minimum of a function, has recently been applied to machine learning hyperparameter tuning, with results suggesting this approach can achieve better performance on the test set while requiring fewer iterations than random search. Moreover, there are now a number of Python libraries that make implementing Bayesian hyperparameter tuning simple for any machine learning model.
-
-In this article, we will walk through a complete example of Bayesian hyperparameter tuning of a gradient boosting machine using the Hyperopt library. In an earlier article I outlined the concepts behind this method, so here we will stick to the implementation. Like with most machine learning topics, it’s not necessary to understand all the details, but knowing the basic idea can help you use the technique more effectively!
+# hyperparameter-optimization
+Implementing different approaches to hyperparameter optimization
